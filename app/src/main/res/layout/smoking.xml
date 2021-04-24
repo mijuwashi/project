@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/smoke1"
+                android:layout_width="285dp"
+                android:layout_height="166dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/smoke1" />
+
+            <EditText
+                android:id="@+id/answer11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/smoke2"
+                android:layout_width="285dp"
+                android:layout_height="166dp"
+                app:srcCompat="@drawable/smoke2" />
+
+            <EditText
+                android:id="@+id/answer12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/smoke3"
+                android:layout_width="285dp"
+                android:layout_height="166dp"
+                app:srcCompat="@drawable/smoke3" />
+
+            <EditText
+                android:id="@+id/answer13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/smoke4"
+                android:layout_width="285dp"
+                android:layout_height="166dp"
+                app:srcCompat="@drawable/smoke4" />
+
+            <EditText
+                android:id="@+id/answer14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/smoke5"
+                android:layout_width="285dp"
+                android:layout_height="166dp"
+                app:srcCompat="@drawable/smoke5" />
+
+            <EditText
+                android:id="@+id/answer15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/smoke6"
+                android:layout_width="285dp"
+                android:layout_height="166dp"
+                app:srcCompat="@drawable/smoke6" />
+
+            <EditText
+                android:id="@+id/answer16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="FinishSmoke"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
