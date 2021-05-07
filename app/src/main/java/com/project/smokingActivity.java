@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.EditText;
 
 public class smokingActivity extends TargetActivity {
-    private EditText answer11;
+    private EditText answer11;//вопросики
     private EditText answer12;
     private EditText answer13;
     private EditText answer14;

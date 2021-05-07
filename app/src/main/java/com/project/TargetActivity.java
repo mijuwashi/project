@@ -1,4 +1,4 @@
-package com.project;
+package com.project;// окно с выбором категории
 
 import android.content.Intent;
 import android.os.Bundle;
